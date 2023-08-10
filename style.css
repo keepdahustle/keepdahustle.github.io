@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+    margin-bottom: 0%;
+}
+
+body{
+    background-color: #EBEBEB;
+    height: 100vh;
+}
+
+.button{
+    font-family: 'Spline Sans Mono', monospace;
+    font-size: 25px;
+    color: black;
+    transform: translateY(145%);
+    text-align: center
+}
+
+.Home{
+    color: black;
+    text-decoration: none;
+}
+
+.About{
+    color: black;
+    text-decoration: none;
+}
+
+.Contact{
+    color: black;
+    text-decoration: none;
+}
+
+.Pgp {
+    color: black;
+    text-decoration: none;
+}
+
+.emoji{
+    font-size: 160px;
+    transform: translateY(70%);
+}
+
+.keepdahustle{
+    font-family: 'Spline Sans Mono', monospace;
+    color: black;
+    transform: translateY(145%);
+    padding-left: 4%;
+}
+
+.myname{
+    font-size: 70px;
+    font-weight:700;
+}
+
+.caption{
+    font-size: 20px;
+}
+
+.home-icon{
+    transform: translateY(40%);
+    padding-left: 82%;
+}
+
+.title-pgp{
+    font-family: 'Spline Sans Mono', monospace;
+    color: black;
+    text-align: center;
+}
+
+h2{
+    color: gray;
+    font-size: 18px;
+}
+
+.end-pgp{
+    font-family: 'Spline Sans Mono', monospace;
+    color: black;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+
+.box-satu{
+    transform: translateY(10%);
+    margin: auto;
+    width: 850px;
+    height: 450px;
+    box-sizing: content-box;
+    background-color:#EBEBEB;
+    display: flex;
+    outline-style: solid;
+}
+
+.text-box{
+    font-family: 'Spline Sans Mono', monospace;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5%;
+
+}
+
+.box-dua{
+    transform: translateY(30%);
+    margin: auto;
+    width: 850px;
+    height: 330px;
+    box-sizing: content-box;
+    background-color:#EBEBEB;
+    display: flex;
+    outline-style: solid;
+}
+
+.emoji-mail{
+    font-size: 160px;
+    transform: translateY(60%);
+    padding-left: 40px;
+}
+
+.getintouch{
+    font-family: 'Spline Sans Mono', monospace;
+    color: black;
+    transform: translateY(125%);
+    padding-left: 4%;
+}
+
+.contact{
+    font-size: 75px;
+    font-weight:700;
+}
+
+.contact-bio{
+    font-size: 25px;
+}
+
+.list-contact{
+    text-align: left;
+    font-family: 'Spline Sans Mono', monospace;
+    font-size: 40px;
+    padding-left: 65%;
+    transform: translateY(-110%);
+}
+
+.Matrix{
+    text-decoration: none;
+    color: black;
+}
+
+.Gmail{
+    text-decoration: none;
+    color: black;
+}
+
+.line{
+    width: 450px;
+    height: 0;
+    border: 2px solid black;
+    margin: 10px;
+    display:inline-block;
+    transform: translateX(-2%);
+}
+
+.arrow-contact{
+    display: block;
+    margin-left: 90%;
+    transform: translateY(-935%);
+}
+.arrow-contact-two{
+    display: block;
+    margin-left: 90%;
+    transform: translateY(-845%);
+}
+
+.arrow-contact-three{
+    display: block;
+    margin-left: 90%;
+    transform: translateY(-775%);
+}
+
+img.one{
+    width: 50px;
+    height: 50px;
+}
+
+img.two{
+    width: 50px;
+    height: 50px;
+}
+
+img.three{
+    width: 50px;
+    height: 50px;
+}
+
+.about-me{
+    font-family: 'Spline Sans Mono', monospace;
+    font-size: 30px;
+    text-align: center;
+    transform: translateY(310%);
+}
+.im-keepdahustle{
+    font-family: 'Spline Sans Mono', monospace;
+    font-size: 23px;
+    transform: translateY(50%);
+    text-align: center;
+}
+.description{
+    font-family: 'Spline Sans Mono', monospace;
+    font-size: 17px;
+    transform: translateY(8%);
+}
+
+@media (max-width: 680px){
+    .button{
+        font-size: 15px;
+    }
+    .emoji{
+        font-size: 100px;
+        transform: translateY(200%);
+    }
+    .keepdahustle{
+        transform: translateY(200%);
+    }
+    .myname{
+        font-size: 20px;
+    }
+    .caption{
+        font-size: 13px;
+    }
+    img.home-icon{
+        width: 30px;
+        height: 30px;
+    }
+    .arrow-home{
+        transform: translateY(150%);
+    }
+    .emoji-mail{
+        font-size: 80px;
+        transform: translateY(270%);
+        padding-left: 2%;
+    }
+    .getintouch{
+        transform: translateY(350%);
+    }
+    .contact{
+        font-size: 35px;
+    }
+    .contact-bio{
+        font-size: 20px;
+    }
+    .list-contact{
+        transform: translateX(-15%);
+        transform: translateY(-40%);
+    }
+    .Matrix{
+        font-size: 22px;
+    }
+    .Gmail{
+        font-size: 20px;
+    }
+    .Instagram{
+        font-size: 20px;
+    }
+    .line{
+        width: 150px;
+        height: 0;
+        border: 1px solid black;
+        margin: 6px;
+        display:inline-block;
+        transform: translateX(-2%);
+    }
+    
+    img.one{
+        width: 30px;
+        height: 30px;
+    }
+    img.two{
+        width: 30px;
+        height: 30px;
+        transform: translateY(100%);
+    }
+    img.three{
+        width: 30px;
+        height: 30px;
+        transform: translateY(220%);
+    }
+    .title-pgp{
+        font-size: 10px;
+        transform: translateY(55px);
+    }
+    h2{
+        font-size: 11px;
+    }
+    .box-satu{
+        transform: translateY(30%);
+        width: 400px;
+        height: 250px;
+    }
+    .text-box{
+        font-size: 10px;
+        line-height: 13px;
+    }
+    .box-dua{
+        transform: translateY(60%);
+        width: 400px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 768px){
+    .button{
+        font-size: 20px;
+        
+    }
+    .keepdahustle{
+        transform: translateY(180%);
+    }
+    .myname{
+        font-size: 40px;
+    }
+    img.home-icon{
+        width: 50px;
+        height: 50px;
+    }
+    .arrow-home{
+        transform: translateY(60%);
+    }
+}
+
+@media (max-width: 1024px){
+    .button{
+        font-size: 20px;
+    }
+    .keepdahustle{
+        transform: translateY(180%);
+    }
+    .myname{
+        font-size: 40px;
+    }
+    .caption{
+        font-size: 20px;
+    }
+    img.home-icon{
+        width: 70px;
+        height: 70px;
+    }
+    .arrow-home{
+        transform: translateY(60%);
+    }
+}
+
+@media (max-width: 1280px){
+    .button{
+        font-size: 20px;
+        padding-left: 3%;
+    }
+    .keepdahustle{
+        transform: translateY(180%);
+    }
+    .myname{
+        font-size: 50px;
+    }
+    .caption{
+        font-size: 30px;
+    }
+    .arrow-home{
+        transform: translateY(155%);
+    }
+}
